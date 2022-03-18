@@ -1,0 +1,44 @@
+#About{
+    background-image: url("shots.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+  width: 100%;
+  display: flex;
+  background-image: url("foam.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: move 5s ease-in-out;
+}
+@keyframes move {
+    from {background-position: 0px 276px;}
+    to {background-position: 0px 0px;}
+  }
+a:hover{
+    font-size:110%;
+}
+.titles a {
+  text-decoration: none;
+  font-family: fantasy;
+  color: black;
+}
+#logo {
+  background-image: url("logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  width: 276px;
+  height: 276px;
+}
+.titles {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 112px;
+  text-align: center;
+  width: 20%;
+  height: 25%;
+}
