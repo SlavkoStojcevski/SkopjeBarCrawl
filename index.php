@@ -7,9 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link href="views/bootstrap.css" rel="stylesheet">
-    <link href="views/styles.css" rel="stylesheet">
+    <link href="views/styles.css?ver=<?php echo rand(111, 999) ?>" rel="stylesheet">
 
-    <link rel="shortcut icon" href="views/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="views/logo.png" type="image/x-icon">
     <title>Skopje Bar Crawl</title>
   </head>
   <body>
